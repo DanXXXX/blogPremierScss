@@ -23,11 +23,27 @@ $fa-font-path: '~font-awesome/fonts';
 
 
 // 3. Import de la base
+@import
+    'base/base';
 
 // 4. Import des layout
+@import
+    'layout/header',
+    'layout/sidebar',
+    'layout/main',
+    'layout/footer';
 
 
 // 5. Import des components
+@import
+    'components/aside-article',
+    'components/button',
+  //  'components/carousel',
+    'components/footer-nav',
+    'components/header__nav',
+    'components/logo',
+    'components/sign',
+    'components/search.scss';
 
 
 // 5. Import shame
