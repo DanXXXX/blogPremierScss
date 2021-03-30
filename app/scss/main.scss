@@ -5,7 +5,11 @@
 // 2. Inclusion de nos vendors
 /*
     Ici, nous n'avons pas de dossier "vendors".
+    En effet, nous utilisons NPM, afin de gérer nos dépendances.
+    Du coup, nos "vendors", nos "dépendances" se trouvent dans le dossiers "node_modules"
+    Nous allons demander à node-sass, d'importer nos vendors depuis le dossier "node_modules"
 
+    ~ est un raccourci (= un alias) vers le répertoire "node_modules/"
 
 
 

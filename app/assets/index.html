@@ -7,7 +7,99 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <h1>Hello Webpack!</h1>
+    <div class="wrappers">
+      <header class="header">
+        <h2 class="header__brand"> 
+          <a href="#">
+            soBlogPremium 
+          </a> 
+          <span> Plus qu'un simple blog</span>
+       </h2>
+        <nav class="header__nav">
+          <ul>
+            <li>
+              <a href="#" class="header__nav-lien">Catégories</a>
+              <a href="#" class="header__nav-lien">A propos</a>
+              <a href="#" class="header__nav-lien">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <form action="">
+            <i class="fa fa-search" aria-hidden="true" class="header__form-icon" ></i>
+            <input type="text" class="header__form-input" placeholder="Rechercher">
+        </form>
+        <button class="header__button" type="submit"><a href="#">S'abonner</a></button>
+
+      </header>
+      <div class="split">
+
+        <aside class="gauche">
+          <h3 class="gauche__title">Latest</h3>
+          <article class="gauche__article">
+            <h4 class="gauche__article-title">France</h4>
+            <p class="gauche__article-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, explicabo!</p>
+          </article>
+          <article class="gauche__article">
+            <h4 class="gauche__article-title">Etats-unis</h4>
+            <p class="gauche__article-para">Vitae optio ut necessitatibus maxime, illo architecto recusandae veniam natus.</p>
+          </article>
+          <article class="gauche__article">
+            <h4 class="gauche__article-title">Lituanie</h4>
+            <p class="gauche__article-para">Similique magnam impedit, suscipit sint illo obcaecati doloremque iusto dolorem.</p>
+          </article>
+          <article class="gauche__article">
+            <h4 class="gauche__article-title">Baly</h4>
+            <p class="gauche__article-para">Veniam, ducimus. Doloremque alias reprehenderit vel consequatur sapiente quaerat nam!</p>
+          </article>
+        </aside>
+
+        <section class="droite">
+
+          <article class="article">
+
+            <h1 class="article__title">Five reason to visit lviv, Ukraine</h1>
+
+         <!--   <img src="https://source.unsplash.com/700x700/?city,black-and-white" alt="">  -->
+            <img src="https://images.unsplash.com/photo-1616944345197-70392770aaf6?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=700&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE3MDkzNDYx&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=700" alt="">
+            <span class="article__span">2d ago &bull; by Universe 34% du WEB ! </span>
+
+            <p class="article__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eligendi facilis at error perferendis, maiores dolores perspiciatis quo? Voluptatem eligendi maiores tempora unde sed expedita aliquam reiciendis alias facilis. Nihil iure non maiores quaerat voluptas nesciunt ab dolore natus recusandae? Suscipit obcaecati amet odit? Suscipit veritatis fuga maxime cum dignissimos!</p>
+          </article>
+
+        </section>
+        </div>
+      <footer>
+        <nav class="footer__nav">
+          <a href="#" class="footer__nav-lien">
+
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+
+          </a>
+          <a href="#" class="footer__nav-lien">
+
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+
+          </a>
+          <a href="#" class="footer__nav-lien">
+
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+
+          </a>
+          <h4></h4>
+        </nav>
+        <div class="sign">
+            <i class="fa fa-circle-o" aria-hidden="true"></i>
+        </div>
+  
+        <div class="copyright">
+          <div class="copyright_title">Blog Eclipse</div>
+          <p class="copyright_text">&copy; 2019 - The Eclipse Démo blog pour étudiant</p>
+  
+  
+        </div>
+      </footer>
+    </div>
+    
   <script src="js/app.js"></script>
 </body>
 </html>
